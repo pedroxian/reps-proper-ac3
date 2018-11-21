@@ -1,0 +1,906 @@
+ClearScene
+LoadScene <filename>
+LoadFromScene <filename>
+SaveScene
+SaveSceneAs <filename>
+About
+Quit
+LoadElementsFromScene <elements> <filename>
+SaveSceneCopy <filename>
+OnLine
+OffLine
+EnterUnlockCode
+RecentScenes
+PreClearScene
+PreLoadScene
+PreSaveScene
+Modeler_Unsupported
+RevertScene
+SaveLWSC_4_0 <filename>
+SaveLWSC_5_6 <filename>
+SaveLWSC_6_0 <filename>
+SaveLWSC_9_2 <filename>
+SaveLWSC1 <filename>
+SaveLWSC3 <filename>
+SaveLWSC4 <filename>
+Model
+Synchronize
+Layout_SetWindowPos <X> <Y>
+Layout_SetWindowSize <width> <height>
+Scene_SetWindowPos <X> <Y>
+Scene_SetWindowSize <width> <height>
+Item_SetWindowPos <X> <Y>
+Layout_WindowActivate
+SelectItem <itemid>
+AddToSelection <itemid>
+RemoveFromSelection <itemid>
+EnableFromSelection <itemid>
+DisableFromSelection <itemid>
+EditObjects
+EditBones
+EditLights
+EditCameras
+SelectAllObjects
+SelectAllBones
+SelectAllLights
+SelectAllCameras
+SelectByName <name>
+PreviousItem
+NextItem
+FirstItem
+LastItem
+SelectParent
+SelectChild
+PreviousSibling
+NextSibling
+SelectByPartialName <name>
+AddBone <name>
+AddChildBone <name>
+DrawBones
+DrawChildBones
+AddJoint <name>
+AddChildJoint <name>
+DrawJoints
+DrawChildJoints
+AddDistantLight <name>
+AddPointLight <name>
+AddSpotlight <name>
+AddLinearLight <name>
+AddAreaLight <name>
+AddLight <type_name> <name>
+AddCamera <name>
+ClearSelected
+Rename <name>
+ReplaceWithObject <filename>
+ReplaceObjectLayer <layer> <filename>
+ReplaceWithNull <name>
+RenameLayer <layer> <name>
+RenameLayerID <objectid> <layer> <name>
+Clone <clones>
+MoveTool
+RotateTool
+SizeTool
+StretchTool
+SquashTool
+MovePivotTool
+RotatePivotTool
+MovePathTool
+MorphAmountTool
+RestLengthTool
+ConeAngleTool
+CameraZoomTool
+AdjustRegionTool
+LightIntensityTool
+MoveTCBTool
+ChangeTool
+PreviewScaleLevel <level>
+TopView
+BottomView
+BackView
+FrontView
+RightView
+LeftView
+XYView
+XZView
+ZYView
+PerspectiveView
+LightView
+CameraView
+SchematicView
+MotionBlurDOFPreview
+BoneWeightShade
+BoneXRay
+ViewLayout <layout>
+PreviousViewLayout
+NextViewLayout
+SingleView
+SaveViewLayout
+CenterMouse
+CenterItem
+FitAll
+FitSelected
+ViewHeadlight
+ZoomIn
+ZoomOut
+ZoomInX2
+ZoomOutX2
+FitAllViews
+FitSelectedViews
+GridSize <size>
+IncreaseGrid
+DecreaseGrid
+DynamicUpdate <level>
+ShowMotionPaths
+ShowHandles
+ShowIKChains
+ShowCages
+CopyToPerspective <on/off>
+ShowSafeAreas
+ShowFieldChart
+ShowTargetLines
+InteractiveMotionBlurDOFPreview
+UndockPreview <on/off>
+UndockPreviewCameraResolution <on/off>
+UndockPreviewWidth <width>
+UndockPreviewHeight <height>
+BoundingBoxThreshold <threshold>
+HardwareShadingMethod <hw_shading_type_name>
+HardwareGeometryAccelerationMethod <hw_geometry_acceleration_type_name>
+DefaultSceneLength <threshold>
+AboutOpenGL
+CommandInput <command>
+CommandHistory
+StudioPanel
+DeviceManagerPanel
+ControlBoothPanel
+StudioLIVE
+SceneEditor
+GraphEditor
+VIPER
+Presets
+Statistics
+SceneEditorOpen
+SceneEditorInstance
+Reset
+Undo
+Redo
+Numeric
+EnableXH
+EnableYP
+EnableZB
+LockAxis <axis> <on/off>
+WorldCoordinateSystem
+ParentCoordinateSystem
+LocalCoordinateSystem
+SaveOptions
+MotionOptions
+ItemProperties
+XController <controller>
+YController <controller>
+ZController <controller>
+HController <controller>
+PController <controller>
+BController <controller>
+SXController <controller>
+SYController <controller>
+SZController <controller>
+XLimits <min> <max>
+YLimits <min> <max>
+ZLimits <min> <max>
+HLimits <min> <max>
+PLimits <min> <max>
+BLimits <min> <max>
+SXLimits <min> <max>
+SYLimits <min> <max>
+SZLimits <min> <max>
+LimitX
+LimitY
+LimitZ
+LimitH
+LimitP
+LimitB
+LimitSX
+LimitSY
+LimitSZ
+XStiffness <stiffness>
+YStiffness <stiffness>
+ZStiffness <stiffness>
+HStiffness <stiffness>
+PStiffness <stiffness>
+BStiffness <stiffness>
+SXStiffness <stiffness>
+SYStiffness <stiffness>
+SZStiffness <stiffness>
+PositionItem <itemid>
+PositionItemWorld <state>
+PositionItemBlendMethod <method>
+PositionItemBlend <blend>
+RotationItem <itemid>
+RotationItemWorld <state>
+RotationItemBlendMethod <method>
+RotationItemBlend <blend>
+ScaleItem <itemid>
+ScaleItemWorld <state>
+ScaleItemBlendMethod <method>
+ScaleItemBlend <blend>
+PreviewFrameRateScale <scale>
+GoToFrame <frame>
+PreviousFrame
+NextFrame
+PreviousKey
+NextKey
+UpdateMotion
+Redraw
+RedrawNow
+Refresh
+RefreshNow
+Pause
+PlayBackward
+PlayForward
+DirtyMotion <itemid>
+PreviewFirstFrame <frame>
+PreviewLastFrame <frame>
+PreviewFrameStep <frames>
+FirstFrame <frame>
+LastFrame <frame>
+FrameStep <frames>
+CreateKey <time>
+DeleteKey <time>
+AutoKey <active>
+AddEnvelope <channel>
+RemoveEnvelope <channel>
+GoToFirstFrame
+GoToLastFrame
+InteractiveMode <on/off>
+Position <X> <Y> <Z>
+Rotation <H> <P> <B>
+Scale <X> <Y> <Z>
+AddPosition <X> <Y> <Z>
+AddRotation <H> <P> <B>
+AddScale <X> <Y> <Z>
+PivotPosition <X> <Y> <Z>
+PivotRotation <H> <P> <B>
+RecordPivotRotation
+SetTCB <T> <C> <B>
+LoadMotion <filename>
+SaveMotion <filename>
+ParentItem <itemid>
+TargetItem <itemid>
+PoleItem <itemid>
+PathAlignLookAhead <time>
+PathAlignMaxLookSteps <steps>
+PathAlignReliableDist <distance>
+UnaffectedByIK
+EnableDeformations
+EnableMC
+EnableIK
+GoalItem <itemid>
+FullTimeIK
+GoalObjective <objective_type>
+IKFKBlending <blend>
+GoalStrength <strength>
+MatchGoalOrientation
+KeepGoalWithinReach
+RecordMinPosition
+RecordMinAngles
+RecordMinScale
+RecordMaxPosition
+RecordMaxAngles
+RecordMaxScale
+IKInitialState <state>
+IKInitialStateFrame <frame>
+SoftIK <type>
+SoftIKMin <min_dist>
+SoftIKMax <max_dist>
+SoftIKDistanceType <type>
+UseIKChainVals <state>
+SchematicPosition <X> <Y>
+ItemActive <active>
+ItemLock <locked>
+ItemVisibility <visibility>
+ItemColor <color>
+ItemUnlock <itemid>
+ItemIconScale <scale>
+GlobalIllumination
+DoubleSidedAreaLights
+RadiosityFlags <flags>
+EnableLensFlares
+EnableShadowMaps
+EnableVolumetricLights
+ShadowExclusion
+AmbientColor <red> <green> <blue>
+AmbientIntensity <intensity>
+NoiseReduction
+EnableRadiosity
+RadiosityType <type>
+CacheRadiosity
+RadiositySaveEachFrame
+PreprocessRadiosity <preprocess>
+RadiosityIntensity <intensity>
+RadiosityTolerance <tolerance>
+IndirectBounces <limit>
+VolumetricRadiosity
+RadiosityInterpolation <enabled>
+RadiosityTransparency <enabled>
+EnableCaustics
+CacheCaustics
+CausticIntensity <intensity>
+GlobalLightIntensity <intensity>
+GlobalLensFlareIntensity <intensity>
+RaysPerEvaluation <base_ray_count>
+RaysPerEvaluation2 <secondary_ray_count>
+CausticAccuracy <accuracy>
+CausticSoftness <softness>
+RadiosityMinPixelSpacing <pixel_size>
+RadiosityMaxPixelSpacing <pixel_size>
+RadiosityMultiplier <multiplier>
+RadiosityUseAmbient
+RadiosityDirectionalRays
+RadiosityUseGradients
+RadiosityUseBehindTest
+RadiosityUseBumps
+BlurBackgroundRadiosity
+RadiosityCacheFilePath <filepath>
+ResetRadiosityCacheFilePath
+BakeRadiosityFrame <frame>
+BakeRadiosityScene
+ClearRadiosityCache
+RadiosityCacheAnimation
+RadiosityCacheModulus <modulus>
+Backdrop
+BackdropColor <red> <green> <blue>
+GradientBackdrop
+ZenithColor <red> <green> <blue>
+SkyColor <red> <green> <blue>
+GroundColor <red> <green> <blue>
+NadirColor <red> <green> <blue>
+SkySqueezeColor <red> <green> <blue>
+GroundSqueezeColor <red> <green> <blue>
+Volumetrics
+FogType <type>
+FogMinDistance <distance>
+FogMaxDistance <distance>
+FogMinAmount <amount>
+FogMaxAmount <amount>
+FogColor <red> <green> <blue>
+UseBackgroundColor <enabled>
+BackgroundColor <red> <green> <blue>
+Compositing
+ImageProcessing
+LimitDynamicRange
+DepthBufferAA <type>
+RenderLines <type>
+DefaultDitherIntensity <default_dither_intensity>
+DitherIntensity <dither_intensity>
+HDRFilter <mode>
+RenderInstances <type>
+GeneralOptions
+ColorSpaceOptions
+OBJOptions
+ColorSpaceAffectPicker <enable>
+NavigationOptions
+ContentDirectory <dirname>
+RecentContentDirs
+CreateContentPath <pathtype>
+ContentTypeDirectory <type> <dirname>
+UseCustomPaths
+HideWindows
+HideToolbar
+ParentInPlace
+FramesPerSecond <fps>
+FractionalFrames
+AutoSaveObj
+AutoSaveScene
+OBJDoubleSided
+AutoConfirm <on/off>
+AlertLevel <level>
+ColorSpace8BitToFloat <enable>
+EditMenus
+EditKeys
+DisplayOptions
+edit_fonts
+OpenGLOptions
+DefaultsOptions
+PathsOptions
+SaveOptionsEnabled
+OBJOneLayer
+OBJOneVMap
+MTMeshEval
+OBJPivotInCenter
+GraphEditorAudioEnabled
+OBJWriteNormals
+OBJMergePoints
+OBJReverseKaKd
+ColorSpaceSurfaceColor
+ColorSpaceViewer
+ColorSpacePaletteFiles
+ColorSpace8BitFiles
+ColorSpaceFloatFiles
+ColorSpaceAlpha
+ColorSpaceOutput
+ColorSpaceOutputAlpha
+ColorSpaceLightColor
+ImageCacheMaximum <size>
+ImageCacheEnable <enable>
+OBJImportScale
+OBJExportScale
+OpenGLUseFrameBufferObject
+ColorSpaceAutoSense <enable>
+ColorSpaceCorrectOpenGL <enable>
+MasterPlugins
+AddPlugins <filename>
+ApplyServer <class> <server>
+RemoveServer <class> <index>
+EditPlugins
+LastPluginInterface
+EditServer <class> <index>
+ApplyServerByItemID <itemid> <class> <server>
+FlushUnusedPlugins
+EnableServer <class> <index> <enable>
+SaveCommandList
+PositionServerByItemID <itemid> <class> <name> <pos>
+AddButton <command> <group>
+Lights
+Generics
+StatusMsg <message>
+ActivateMaster <name>
+ActivateMasterUnique <name>
+RemoveMaster <name>
+RemoveServerByItemID <itemid> <class> <index>
+EnableServerByItemID <itemid> <class> <index> <enable>
+MakePreview
+PlayPreview
+FreePreview
+LoadPreview
+SavePreview
+PreviewOptions
+ClearAudio
+LoadAudio
+PlayAudio
+ToggleAudioScrubbing
+SaveAnimation
+SaveAnimationName
+UnPreMultiplyAlpha
+SaveRGB
+SaveRGBPrefix
+SaveAlpha
+SaveAlphaPrefix
+SaveAnimationServer <server>
+SaveRGBServer <server>
+SaveAlphaServer <server>
+RenderOptions
+AmbientOcclusionShadows <on/off>
+AmbientOcclusionRange <range>
+NetRender
+AutoFrameAdvance
+EnableVIPER
+RayTraceShadows
+RayTraceReflection
+RayTraceRefraction
+RayTraceTransparency
+RayRecursionLimit <limit>
+RayPrecision <precision>
+RayCutoff <cutoff>
+RayTraceOcclusion
+RenderThreads <threads>
+ShadingSamples <samples>
+LightSamples <samples>
+RenderSelected
+RenderFrame
+RenderScene
+ExtRendererOptions
+ExtRendererPick
+UseZMinimumMaximum
+ZBufferMinimum <z_minimum>
+ZBufferMaximum <z_maximum>
+CalculateAllNormals <on/off>
+ClearAllObjects
+LoadObject <filename>
+LoadObjectLayer <layer> <filename>
+AddNull <name>
+SaveAllObjects
+SaveObject <filename>
+SaveTransformed <filename>
+SaveEndomorph <name>
+SaveObjectCopy <name>
+SubdivisionOrder <order>
+SaveWavefrontObj <objectid> <filename>
+SubPatchLevel <display> <render>
+MetaballResolution <display> <render>
+SaveTransformedWavefrontObj <objectid> <filename>
+AddPartigon
+SaveFrozenWavefrontObj <objectid> <trippled> <filename>
+SaveFrozenLwo <objectid> <trippled> <filename>
+ObjectMeshGroup <groupid>
+MeshElementSelect
+ObjGIUseGlobal <on>
+ObjGIRaysPerEvaluation <count>
+ObjGISecondaryBounceRays <count>
+ObjGIRadiosityTolerance <degrees>
+ObjGIMinPixelSpacing <amount>
+ObjGIMaxPixelSpacing <amount>
+MorphAmount <morph>
+MorphTarget <itemid>
+MorphMTSE
+MorphSurfaces
+MatteObject
+MatteColor <red> <green> <blue>
+ObjectDissolve <dissolve>
+PolygonSize <size>
+UnseenByRays
+UnseenByCamera
+UnseenByAlphaChannel
+UnaffectedByFog
+UnseenByRadiosity
+SelfShadow
+CastShadow
+ReceiveShadow
+IncludeLight <itemid>
+ExcludeLight <itemid>
+PolygonEdgeFlags <flags>
+PolygonEdgeThickness <silhouette> <unshared> <crease> <surface> <other>
+PolygonEdgeColor <red> <green> <blue>
+NodeEdges
+PolygonEdgeZScale <scale>
+ShadowOffset <offset>
+ShrinkEdgesWithDistance
+DisplacementMapOrder <order>
+BumpDisplacementOrder <order>
+NodeDisplacement
+NodeDisplacementOrder <order>
+SurfaceEditor
+ImageEditor
+FogLevel <percent>
+ShrinkEdgesNominalDistance <length>
+LineThickness <size>
+ParticleThickness <size>
+DistanceDissolve
+MaxDissolveDistance <distance>
+BumpDisplacement
+BumpDisplacementDistance <distance>
+ClearAllBones
+SkelegonsToBones
+BoneSource <itemid>
+BoneFalloffType <type>
+UseMorphedPositions
+FasterBones
+BoneType <type>
+BoneActive
+RecordRestPosition
+BoneRestPosition <X> <Y> <Z>
+BoneRestRotation <H> <P> <B>
+BoneRestLength <length>
+BoneMayaStyleDraw
+BoneStrength <strength>
+BoneStrengthMultiply
+BoneWeightMapName <name>
+BoneWeightMapOnly
+BoneNormalization
+BoneLimitedRange
+BoneMinRange <distance>
+BoneMaxRange <distance>
+BoneJointComp
+BoneJointCompParent
+BoneJointCompAmounts <self> <parent>
+BoneMuscleFlex
+BoneMuscleFlexParent
+BoneMuscleFlexAmounts <self> <parent>
+BoneTwist
+BoneTwistAmount <amount>
+BoneBulge
+BoneBulgeAmount <amount>
+BoneBulgeParent
+BoneBulgeParentAmount <amount>
+XTransform <multiplier> <offset>
+YTransform <multiplier> <offset>
+ZTransform <multiplier> <offset>
+HTransform <multiplier> <offset>
+PTransform <multiplier> <offset>
+BTransform <multiplier> <offset>
+SXTransform <multiplier> <offset>
+SYTransform <multiplier> <offset>
+SZTransform <multiplier> <offset>
+XFollow <channel>
+YFollow <channel>
+ZFollow <channel>
+HFollow <channel>
+PFollow <channel>
+BFollow <channel>
+SXFollow <channel>
+SYFollow <channel>
+SZFollow <channel>
+ClearAllLights
+SaveLight
+DistantLight
+PointLight
+Spotlight
+LinearLight
+AreaLight
+LightColor <red> <green> <blue>
+LightIntensity <intensity>
+LightFalloffType <type>
+LightRange <distance>
+AffectDiffuse
+AffectSpecular
+AffectCaustics
+AffectOpenGL
+LightConeAngle <angle>
+LightEdgeAngle <angle>
+ProjectionImage <imageid>
+ShadowType <type>
+ShadowColor <red> <green> <blue>
+CacheShadowMap
+ShadowMapSize <size>
+ShadowMapFuzziness <fuzziness>
+ShadowMapFitCone
+ShadowMapAngle <angle>
+IncludeObject <itemid>
+ExcludeObject <itemid>
+LensFlare
+FlareOptions
+SetFlareIntensity <intensity>
+FlareFadeOffScreen
+FlareFadeBehindObjects
+FlareFadeInFog
+FlareFadeWithDistance
+FlareFadeNominalDistance <distance>
+FlareDissolve <percent>
+FlareCentralGlow
+FlareGlowBehindObject
+FlareCentralRing
+FlareRedOuterGlow
+FlareRingColor <red> <green> <blue>
+FlareRingSize <percent>
+FlareAnamorphicDistortion
+FlareAnamorphicDistortionAmount <amount>
+FlareStreaksStarFilter <list>
+FlareStreaksRotation <angle>
+FlareStreaksOffScreen
+FlareStreaksAnamorphic
+FlareStreaksRandom
+FlareStreaksIntensity <intensity>
+FlareStreaksDensity <density>
+FlareStreaksSharpness <sharpness>
+FlareLensReflections
+FlareLensElementShape <shape>
+FlareLensElementType <element> <type>
+FlareLensElementPosition <element> <position>
+FlareLensElementSize <element> <radius>
+FlareLensElementColor <element> <red> <green> <blue>
+VolumetricLighting
+VolumetricLightingOptions
+ClearAllCameras
+ResolutionMultiplier <multiplier>
+FrameSize <width> <height>
+PixelAspect <aspect>
+FieldRendering <fieldrend>
+LimitedRegion <region>
+RegionPosition <left> <top> <width> <height>
+ZoomFactor <factor>
+ApertureHeight <height>
+FilmHeight <height>
+Antialiasing <level>
+EnhancedAA
+MinAntialiasing <level>
+MaxAntialiasing <level>
+MinimumSamples <samples>
+MaximumSamples <samples>
+AdaptiveSampling
+AdaptiveThreshold <threshold>
+Oversampling <threshold>
+PixelFiltersMT <enable>
+ParticleBlur
+MotionBlur <type>
+BlurLength <length>
+MotionBlurPasses <passes>
+ShutterEfficiency <efficiency>
+RollingShutter <skew>
+ShutterOpen <open>
+Stereoscopic
+EyeSeparation <separation>
+ConvergencePoint <convergence_point>
+UseConvergencePoint
+ConvergenceToeIn <amount>
+AnaglyphOpenGL <enable>
+DepthOfField
+FocalDistance <distance>
+LensFStop <fstop>
+SoftFilter
+ReconstructionFilter <level>
+DrawAntialiasing <level>
+DiaphragmSides <sides>
+DiaphragmRotation <angle>
+NoiseSampler <sampler>
+ResolutionPreset <resolution_preset>
+SetBackgroundImage <name>
+SetForegroundImage <name>
+SetForegroundAlphaImage <name>
+SyncImageToFrame <frame>
+EnableForegroundFaderAlpha <on/off>
+EnableForegroundKey <on/off>
+SetForegroundDissolve <percentage>
+SetLowClipColor <red> <green> <blue>
+SetHighClipColor <red> <green> <blue>
+OpenPCoreConsole
+ClosePCoreConsole
+PCorePython
+ViewPortToggleVPR
+Tool_LW_LScript
+Tool_LW_Python
+StudioToggle <option> <set|unset|toggle>
+StudioTraitCollectionToggle <collection> <option> <set|unset|toggle>
+StudioTraitToggle <trait> <option> <set|unset|toggle>
+Generic_ConMan
+Generic_LW_LSCompiler
+Generic_LW_LScript
+Generic_LW_LScript/RT
+Generic_LW_Python
+Generic_Py_lwsdk
+ModCommand_ExportOBJ
+ModCommand_LW_LSCompiler
+ModCommand_LW_LScript
+ModCommand_LW_LScript/RT
+ModCommand_LW_Python
+ModCommand_SkelegonTree
+GE_OpenWindow <mode>
+GE_SetWindowPos <X> <Y>
+GE_SetWindowSize <width> <height>
+GE_ApplyServer <classname> <servername>
+GE_RemoveServer <classname> <index>
+GE_GetLayoutSel <add>
+GE_SelectAllCurves
+GE_FilterSelection <filter>
+GE_BakeCurves
+GE_SnapKeysToFrames
+GE_SelectAllKeys <deselect>
+GE_DeleteSelKeys
+GE_ReduceKeys <all> <threshold>
+GE_LockKeys <unlock>
+GE_CopySelKeys
+GE_PasteKeys <frame>
+GE_LeaveFootprints
+GE_PickupFootprints
+GE_BacktrackFootprints
+GE_CopyTimeslice <fromfootprint> <frame>
+GE_PasteTimeslice <frame>
+GE_MatchFootprintAtFrame <frame>
+GE_MoveKeys <deltaframe> <deltavalue>
+GE_CreateExpression <name> <expression>
+GE_AttachExpression <channelname> <expressionname>
+GE_AttachExpressionID <channelid> <expressionname>
+GE_SetGroup <groupid>
+GE_SetEnv <channelname> <add>
+GE_SetEnvID <channelid> <add>
+GE_LoadExpressions <filename>
+GE_SaveExpressions <filename>
+GE_ClearBin
+Surf_OpenWindow
+Surf_UpdateWindow
+Surf_CloseWindow
+Surf_SetWindowPos <x> <y>
+Surf_SetSurf <surf> <obj>
+Surf_SetInt <ch> <int>
+Surf_SetFloat <ch> <double>
+Surf_SetColor <ch> <r> <g> <b>
+Surf_SetImage <ch> <image>
+Surf_AddShader <shader>
+Surf_RemShader <shader>
+Surf_Copy <destsurf> <destobj>
+Surf_Rename <name>
+Surf_Load <name>
+Surf_Save <name>
+Surf_LoadLibrary <name>
+Surf_SaveLibrary <name>
+Surf_SetBakerImage <name>
+Surf_SetBakerVmap <name>
+Surf_SetBakerImageRes <res>
+Surf_SetBakerImageType <type>
+Surf_SetBakerColorFlag <flag>
+Surf_SetBakerDiffuseFlag <flag>
+Surf_SetBakerIlumFlag <flag>
+Surf_SetBakerShaderFlag <flag>
+Surf_SetBakerAAFlag <flag>
+Surf_SetBakerSNRFlag <flag>
+Surf_SetBakerViewImageFlag <flag>
+Surf_SetBakerToType <flag>
+Surf_SetBakerRegion <umin> <vmin> <umax> <vmax>
+IE_OpenWindow <mode>
+IE_SetClipTable <table>
+IE_SetWindowPos <X> <Y>
+IE_CreateImage <name> <width> <height> <type>
+copy
+cut
+delete
+paste
+undo
+redo
+save filename<str>
+revert filename<str>
+sel_invert
+sel_hide type<SELECTED|UNSELECTED>
+sel_unhide
+invert_hide
+setalayer layer-list<str>
+setlayer layer-list<str>
+setblayer layer-list<str>
+setobject name<string>, [index<int>]
+sel_point action<SET|CLEAR> test<CONNECT|VOLUME|NPEQ|NPLT|NPGT> ...
+sel_edge action<SET|CLEAR> test<CONNECT|VOLUME|NPEQ|NPLT|NPGT> ...
+sel_polygon action<SET|CLEAR> test<CONNECT|VOLEXCL|VOLINCL|NVEQ|NVLT|NVGT|SURFACE|PART|NONPLANAR|FACE|CURVE|PATCH|BONE|MBALL> ...
+mergepoints [range<dst>]
+weldpoints
+weldaverage
+unweld
+make4patch u-segments<int>, v-segments<int>
+togglepatches
+pathextrude filename<str>, [step<flt>, start<flt>, end<flt>]
+pathclone filename<str>, [step<flt>, start<flt>, end<flt>]
+railextrude segments<int>, [interpolation<KNOTS|LENGTHS>, flags<o=orient|s=scale>, strength<flt>]
+railclone segments<int>, [interpolation<KNOTS|LENGTHS>, flags<o=orient|s=scale>, strength<flt>]
+makeball radius<vec>, sides<int>, segments<int>, [center<vec>]
+maketesball2 radius<vec>, segments<int>, [center<vec>]
+maketesball radius<vec>, segments<int>, [center<vec>]
+makedisc radius<vec>, bottom<flt>, top<flt>, axis<X|Y|Z>, sides<int>, [segments<int>, center<vec>]
+makecone radius<vec>, bottom<flt>, top<flt>, axis<X|Y|Z>, sides<int>, [segments<int>, center<vec>]
+makebox low<vec>, high<vec>, [segments<int-vec>]
+maketext2 text<str>, font<int>, [corners<SHARP|BUFFERED>, kern<flt>, scale<dst>, axis<X|Y|Z>, center<vec>, alignment<LEFT|CENTER|RIGHT>]
+maketext text<str>, font<int>, [corners<SHARP|BUFFERED>, kern<flt>, scale<dst>, axis<X|Y|Z>, center<vec>, alignment<LEFT|CENTER|RIGHT>]
+lathe axis<X|Y|Z>, sides<int>, [center<vec>, start<ang>, end<ang>, offset<dst>]
+extrude axis<X|Y|Z>, extent<dst>, [segments<int>]
+mirror axis<X|Y|Z>, [plane<dst>]
+surface surface<str>
+flip
+splitpols
+mergepols
+removepols
+unifypols
+alignpols
+triple
+changesurface surface<str>
+changepart part<str>
+smoothshift shift<dst>, [max-angle<ang>, scale<flt>]
+toggleccstart
+toggleccend
+bevel inset<dst>, shift<dst>, [edges<INNER|OUTER>, surf<string>, i-rand<dst>, s-rand<dst>]
+shapebevel steps {inset<dst>, shift<dst>}
+axisdrill operation<CORE|TUNNEL|STENCIL|SLICE>, axis<X|Y|Z>, [surface<str>]
+soliddrill operation<CORE|TUNNEL|STENCIL|SLICE>, [surface<str>]
+boolean operation<UNION|INTERSECT|SUBTRACT|ADD>
+freezecurves
+smoothcurves
+subdivide type<FLAT|SMOOTH|METAFORM>, [max-angle<ang>]
+fracsubdivide type<FLAT|SMOOTH|METAFORM>, fractal<flt>, [max-angle<ang>]
+setpivot position<vec>
+setlayername name<str>
+selectvmap type<MORF|SPOT|WGHT|MNVW|TXUV|RGB|RGBA|PICK>, name<string>
+welduv
+jitter radius<vec>, [type<UNIFORM|GAUSSIAN|NORMAL|RADIAL>, center<vec>]
+smscale shift<dst>
+quantize snap<vec>
+smooth iteractions<int>, [strength<flt>]
+autoflex axis<X|Y|Z>, sense<+|->, [shape<i=ease-in|o=ease-out>]
+fixedflex axis<X|Y|Z>, low<dst>, high<dst>, [shape<i=ease-in|o=ease-out>]
+deformregion radius<vec>, [center<vec>, axis<X|Y|Z>]
+move offset<vec>
+shear offset<vec>
+magnet offset<vec>
+rotate angle<ang>, axis<X|Y|Z>, [center<vec>]
+twist angle<ang>, axis<X|Y|Z>, [center<vec>]
+vortex angle<ang>, axis<X|Y|Z>, [center<vec>]
+scale factor<vec>, [center<vec>]
+taper factor<vec>, [center<vec>]
+pole factor<vec>, [center<vec>]
+bend2 angle<ang>, direction<ang>, [center<vec>]
+bend angle<ang>, direction<ang>, [center<vec>]
+point_mode
+edge_mode
+poly_mode
+store_selection
+skinpols
+morphpols segments<int>
+plugin filename<str>, [class<str>, server<str>, user-name<str>]
+setface
+setcc
+setsubpatch
+toggle_symmetry
+set_action_center

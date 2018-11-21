@@ -1,0 +1,11 @@
+fbi.weapons _level.tespray.decode authors _left.behind .trim
+_false.if line author.error /line.wad
+
+effect._saga /sotem.arch _loverplay:junk
+-false.if lines true:center -behind.lot
+memorie.ls /loading :tape.extrude /false
+
+inner.sshadow /bright.white:yellow
+brush.made /brighten.sharp is:true/false
+
+scenes.play /trim.wad _video.967 -jvc
